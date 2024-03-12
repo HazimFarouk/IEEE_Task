@@ -1,9 +1,3 @@
-/*
- * lcd.h
- *
- *  Created on: Apr 24, 2023
- *     Author: Ahmed Adel Wafdy
- */
 
 #ifndef INC_LCD_H_
 #define INC_LCD_H_

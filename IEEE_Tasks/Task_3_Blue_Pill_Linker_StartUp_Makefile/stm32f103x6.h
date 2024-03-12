@@ -1,9 +1,4 @@
-/*
- * stm32f103x6.h
- *
- *  Created on: Apr 19, 2023
- *      Author: Ahmed Adel Wafdy
- */
+
 
 #ifndef INC_STM32F103X6_H_
 #define INC_STM32F103X6_H_

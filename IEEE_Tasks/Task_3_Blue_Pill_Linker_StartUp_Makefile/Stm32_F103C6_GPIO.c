@@ -1,9 +1,4 @@
-/*
- * Stm32_F103C6_GPIO.c
- *
- *  Created on: Apr 19, 2023
- *      Author: Ahmed Adel Wafdy
- */
+
 #include "Stm32_F103C6_GPIO.h"
 
 
