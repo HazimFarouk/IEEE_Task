@@ -33,7 +33,7 @@ startup_stm32f103xb.o : startup_stm32f103xb.c
 	@$(CC) $(CFLAGS) $< -o $@
 	
 clean : 
-	@rm *.o *.elf *.hex *.map *.asm
+	@rm -f *.o *.elf *.hex *.map *.asm
 	
 analyze :
 	@arm-none-eabi-objdump -h app.elf
