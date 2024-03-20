@@ -80,8 +80,7 @@ void RTCAlarm_IRQHandler		(void) __attribute__((weak,alias("Default_Handler")));
 void USBWakeUp_IRQHandler		(void) __attribute__((weak,alias("Default_Handler")));
 
 
-
-uint32_t Vectors[] __attribute__((section(".isr_vector") , used)) =
+const uint32_t Vectors[] __attribute__((section(".isr_vector") , used)) =
 {
 	STACK_START								,
 	(uint32_t)&Reset_Handler				,
